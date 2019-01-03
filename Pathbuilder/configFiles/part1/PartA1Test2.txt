@@ -1,0 +1,226 @@
+# CONFIG FILE FOR PATHBUILDER PROJECT PART 1 TESTING
+# Blank lines are ignored.  Lines beginning with # are ignored.
+# All other lines are processed.
+
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# NOTE: THIS CONFIG FILE SHOULD NOT BE MODIFIED.
+# THE PARAMETERS AND CORRESPONDING RESULT ARE A SPECIFIC
+# TEST PROVIDED FOR YOU TO CHECK YOUR PART 1 SOLUTION.
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+# This config file format is intended for use with
+# Part1Test.java.
+
+# NOTE: the GUI is not used for part 1 testing.
+
+# NOTE: PLAYERS is not used in PART 1 config file.  The player
+# to be tested is instead provided via a command line argument
+# when running the program.  Also, TIMELIMIT is not specified
+# in this config file, but internally a 10 second limit
+# is used to limit the allowed computation by the player
+# for any method call (this should not be an issue).
+
+# PART must be present with value 1 to indicate that this
+# config file is appropriate for PART 1 testing
+PART 1
+
+# DIM is used to indicate the size of the smaller dimension
+# of the grid of nodes for each player.
+# It must have an integer value in the range 3-20.
+# The larger dimension always has value DIM+1.
+# Both players nodes can be placed on an overall grid of
+# size (2*DIM+1) by (2*DIM+1).
+# DIM has a default value of 6 if it is not specified in
+# the configuration file.
+DIM 11
+
+# a PREMOVE is used to get the game started with
+# a specific move before calling the
+# HUMAN / player modules for moves.
+# a PREMOVE must have three comma-separated values,
+# with no spaces, indicating row, column and player id
+# for the move.
+# Multiple PREMOVE lines are allowed, and are processed in order.
+# An invalid PREMOVE will cause a game error.
+# PREMOVE lines are optional.
+PREMOVE 5,3,1
+PREMOVE 5,9,2
+PREMOVE 9,9,1
+PREMOVE 9,5,2
+PREMOVE 19,5,1
+PREMOVE 19,21,2
+PREMOVE 21,21,1
+PREMOVE 18,10,2
+PREMOVE 21,17,1
+PREMOVE 21,19,2
+PREMOVE 19,7,1
+PREMOVE 19,15,2
+PREMOVE 21,15,1
+PREMOVE 20,18,2
+PREMOVE 17,15,1
+PREMOVE 19,3,2
+PREMOVE 21,3,1
+PREMOVE 20,4,2
+PREMOVE 21,5,1
+PREMOVE 21,1,2
+PREMOVE 20,6,1
+PREMOVE 19,1,2
+PREMOVE 17,1,1
+PREMOVE 17,19,2
+PREMOVE 19,19,1
+PREMOVE 20,20,2
+PREMOVE 18,14,1
+PREMOVE 19,11,2
+PREMOVE 15,17,1
+PREMOVE 15,21,2
+PREMOVE 13,21,1
+PREMOVE 17,9,2
+PREMOVE 13,19,1
+PREMOVE 8,12,2
+PREMOVE 13,17,1
+PREMOVE 13,1,2
+PREMOVE 21,11,1
+PREMOVE 16,16,2
+PREMOVE 13,15,1
+PREMOVE 9,1,2
+PREMOVE 17,3,1
+PREMOVE 14,2,2
+PREMOVE 17,5,1
+PREMOVE 14,18,2
+PREMOVE 13,13,1
+PREMOVE 7,13,2
+PREMOVE 3,13,1
+PREMOVE 16,18,2
+PREMOVE 13,11,1
+PREMOVE 10,6,2
+PREMOVE 1,5,1
+PREMOVE 20,2,2
+PREMOVE 17,7,1
+PREMOVE 16,8,2
+PREMOVE 15,7,1
+PREMOVE 16,6,2
+PREMOVE 1,1,1
+PREMOVE 16,4,2
+PREMOVE 15,3,1
+PREMOVE 15,5,2
+PREMOVE 15,1,1
+PREMOVE 13,5,2
+PREMOVE 11,5,1
+PREMOVE 1,13,2
+PREMOVE 11,1,1
+PREMOVE 11,3,2
+PREMOVE 11,9,1
+PREMOVE 12,10,2
+PREMOVE 12,8,1
+PREMOVE 12,4,2
+PREMOVE 13,9,1
+PREMOVE 10,4,2
+PREMOVE 6,8,1
+PREMOVE 5,7,2
+PREMOVE 1,7,1
+PREMOVE 2,8,2
+PREMOVE 3,7,1
+PREMOVE 2,6,2
+PREMOVE 7,5,1
+PREMOVE 12,6,2
+PREMOVE 1,9,1
+PREMOVE 6,14,2
+PREMOVE 10,8,1
+PREMOVE 2,2,2
+PREMOVE 7,1,1
+PREMOVE 7,3,2
+PREMOVE 6,2,1
+PREMOVE 6,4,2
+PREMOVE 5,5,1
+PREMOVE 14,16,2
+PREMOVE 7,7,1
+PREMOVE 8,8,2
+PREMOVE 8,10,1
+PREMOVE 6,6,2
+PREMOVE 4,8,1
+PREMOVE 7,9,2
+PREMOVE 9,7,1
+PREMOVE 8,6,2
+PREMOVE 6,10,1
+PREMOVE 4,10,2
+PREMOVE 3,11,1
+PREMOVE 5,11,2
+PREMOVE 3,9,1
+PREMOVE 6,12,2
+PREMOVE 3,15,1
+PREMOVE 4,6,2
+PREMOVE 3,21,1
+PREMOVE 3,19,2
+PREMOVE 2,18,1
+PREMOVE 3,17,2
+PREMOVE 1,17,1
+PREMOVE 1,19,2
+PREMOVE 4,20,1
+PREMOVE 5,19,2
+PREMOVE 6,18,1
+PREMOVE 7,19,2
+PREMOVE 20,12,1
+PREMOVE 12,18,2
+PREMOVE 21,9,1
+PREMOVE 9,3,2
+PREMOVE 18,12,1
+PREMOVE 14,12,2
+PREMOVE 18,8,1
+PREMOVE 2,4,2
+PREMOVE 21,7,1
+PREMOVE 15,9,2
+PREMOVE 3,5,1
+PREMOVE 15,11,2
+PREMOVE 16,14,1
+PREMOVE 14,14,2
+PREMOVE 17,11,1
+PREMOVE 14,10,2
+PREMOVE 15,19,1
+PREMOVE 15,15,2
+PREMOVE 18,20,1
+PREMOVE 17,21,2
+PREMOVE 16,20,1
+PREMOVE 14,20,2
+PREMOVE 8,16,1
+PREMOVE 4,16,2
+PREMOVE 4,18,1
+PREMOVE 2,16,2
+PREMOVE 5,15,1
+PREMOVE 12,16,2
+PREMOVE 9,21,1
+PREMOVE 9,19,2
+PREMOVE 9,13,1
+PREMOVE 4,4,2
+PREMOVE 1,3,1
+PREMOVE 9,15,2
+PREMOVE 11,15,1
+PREMOVE 2,10,2
+PREMOVE 3,3,1
+PREMOVE 10,16,2
+PREMOVE 10,18,1
+PREMOVE 5,1,2
+PREMOVE 5,17,1
+PREMOVE 8,18,2
+PREMOVE 4,2,1
+PREMOVE 4,14,2
+PREMOVE 7,15,1
+PREMOVE 8,14,2
+PREMOVE 9,17,1
+PREMOVE 12,12,2
+PREMOVE 7,17,1
+PREMOVE 21,13,2
+PREMOVE 2,14,1
+PREMOVE 1,15,2
+PREMOVE 4,12,1
+PREMOVE 5,13,2
+
+# RESULT for part 1 contains two comma separated boolean
+# values (no spaces allowed before or after the comma).
+# These are groundtruth values for this test indicating
+# whether player 1 or 2 respectively has won the game.
+# The player module output will be compared against
+# these ground truth values.
+RESULT false,true
+
+
+

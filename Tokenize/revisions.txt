@@ -1,0 +1,29 @@
+commit 170b875807c968eebe163d9e3b4838fd6d100542
+Author: jmm6855 <kiwibird09@gmail.com>
+Date:   Fri Oct 12 15:46:10 2018 -0400
+
+    Updated spacing to remove trailing space when the transition matrix prints.
+
+commit d2735841753258fa878fac811b78bcffaa74a1ec
+Author: jmm6855 <kiwibird09@gmail.com>
+Date:   Fri Oct 12 15:25:00 2018 -0400
+
+    fixed the spacing for matrix output by adding spaces and reducing the n in %nd
+
+commit 1256496f5cee24c957018b7595211437fcdfb866
+Author: jmm6855 <kiwibird09@gmail.com>
+Date:   Fri Oct 12 15:15:14 2018 -0400
+
+    added newline character to "no such directory" message.
+
+commit cd39c3b48d2ce4b51ff1df023fd7a56b8554c42c
+Author: jmm6855 <kiwibird09@gmail.com>
+Date:   Fri Oct 12 15:11:57 2018 -0400
+
+    Fixed the implicit function declarations and used __isascii() instead of isascii()
+
+commit 4234102d62c05e33dfe24ae79e85dac717b3e929
+Author: jmm6855 <kiwibird09@gmail.com>
+Date:   Fri Oct 12 14:31:18 2018 -0400
+
+    Commited, I forgot to do this throughout the project, I was too worried about finishing.

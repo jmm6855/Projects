@@ -1,0 +1,104 @@
+# CONFIG FILE FOR PATHBUILDER PROJECT PART 1 TESTING
+# Blank lines are ignored.  Lines beginning with # are ignored.
+# All other lines are processed.
+
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# NOTE: THIS CONFIG FILE SHOULD NOT BE MODIFIED.
+# THE PARAMETERS AND CORRESPONDING RESULT ARE A SPECIFIC
+# TEST PROVIDED FOR YOU TO CHECK YOUR PART 1 SOLUTION.
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+# This config file format is intended for use with
+# Part1Test.java.
+
+# NOTE: the GUI is not used for part 1 testing.
+
+# NOTE: PLAYERS is not used in PART 1 config file.  The player
+# to be tested is instead provided via a command line argument
+# when running the program.  Also, TIMELIMIT is not specified
+# in this config file, but internally a 10 second limit
+# is used to limit the allowed computation by the player
+# for any method call (this should not be an issue).
+
+# PART must be present with value 1 to indicate that this
+# config file is appropriate for PART 1 testing
+PART 1
+
+# DIM is used to indicate the size of the smaller dimension
+# of the grid of nodes for each player.
+# It must have an integer value in the range 3-20.
+# The larger dimension always has value DIM+1.
+# Both players nodes can be placed on an overall grid of
+# size (2*DIM+1) by (2*DIM+1).
+# DIM has a default value of 6 if it is not specified in
+# the configuration file.
+DIM 6
+
+# a PREMOVE is used to get the game started with
+# a specific move before calling the
+# HUMAN / player modules for moves.
+# a PREMOVE must have three comma-separated values,
+# with no spaces, indicating row, column and player id
+# for the move.
+# Multiple PREMOVE lines are allowed, and are processed in order.
+# An invalid PREMOVE will cause a game error.
+# PREMOVE lines are optional.
+PREMOVE 7,1,1
+PREMOVE 6,4,2
+PREMOVE 11,3,1
+PREMOVE 11,7,2
+PREMOVE 5,5,1
+PREMOVE 8,10,2
+PREMOVE 10,10,1
+PREMOVE 1,9,2
+PREMOVE 7,5,1
+PREMOVE 6,6,2
+PREMOVE 4,4,1
+PREMOVE 3,11,2
+PREMOVE 5,3,1
+PREMOVE 8,2,2
+PREMOVE 9,9,1
+PREMOVE 10,6,2
+PREMOVE 1,1,1
+PREMOVE 2,4,2
+PREMOVE 3,1,1
+PREMOVE 2,8,2
+PREMOVE 9,7,1
+PREMOVE 4,8,2
+PREMOVE 5,11,1
+PREMOVE 2,6,2
+PREMOVE 2,10,1
+PREMOVE 1,5,2
+PREMOVE 7,11,1
+PREMOVE 1,3,2
+PREMOVE 4,6,1
+PREMOVE 3,9,2
+PREMOVE 1,7,1
+PREMOVE 9,1,2
+PREMOVE 3,7,1
+PREMOVE 11,1,2
+PREMOVE 8,8,1
+PREMOVE 3,3,2
+PREMOVE 11,5,1
+PREMOVE 2,2,2
+PREMOVE 10,4,1
+PREMOVE 6,10,2
+PREMOVE 10,2,1
+PREMOVE 9,11,2
+PREMOVE 1,11,1
+PREMOVE 9,3,2
+PREMOVE 7,7,1
+PREMOVE 11,9,2
+PREMOVE 7,3,1
+PREMOVE 10,8,2
+PREMOVE 6,2,1
+PREMOVE 7,9,2
+PREMOVE 11,11,1
+
+# RESULT for part 1 contains two comma separated boolean
+# values (no spaces allowed before or after the comma).
+# These are groundtruth values for this test indicating
+# whether player 1 or 2 respectively has won the game.
+# The player module output will be compared against
+# these ground truth values.
+RESULT true,false

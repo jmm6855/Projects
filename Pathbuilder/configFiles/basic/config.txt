@@ -1,0 +1,99 @@
+# CONFIG FILE FOR PATHBUILDER GAME
+# Blank lines are ignored.  Lines beginning with # are ignored.
+# All other lines are processed.
+
+
+# DIM is used to indicate the size of the smaller dimension
+# of the grid of nodes for each player.
+# It must have an integer value in the range 3-20.
+# The larger dimension always has value DIM+1.
+# Both players nodes can be placed on an overall grid of
+# size (2*DIM+1) by (2*DIM+1).
+# DIM has a default value of 6 if it is not specified in
+# the configuration file.
+DIM 7
+
+# GAMES is used to indicate the number of games to
+# play between the two players.  It is considered
+# a "best of" tournament that stops early if one
+# player has won more than half of the total.
+# The players alternate who is player 1 and player 2.
+# GAMES must have a value in the range 1-20.
+# GAMES has a default value of 1 if it is not specified
+# in the configuration file.
+# Note that only one instance of each player module
+# is created.  The initPlayer function is responsible
+# for resetting all player information necessary to
+# play multiple games.
+GAMES 1
+
+# PLAYERS is used to indicate the players for the game.
+# It must be followed by two names that are separated
+# by only a comma (no additional spaces).
+# HUMAN is used to indicate that the player will be a
+# human player that uses the graphical user interface
+# to play the game.
+# All other player names represent
+# artificial intelligence (AI) modules that
+# play the game automatically.
+# Valid choices for AI players include:
+# CARELESS, RANDOM, DEFENSIVE, OKPLAYER, GOODPLAYER, TOUGHPLAYER
+# as well as any module you create to play the game.
+PLAYERS jmm6855,CARELESS
+
+# TIMELIMIT is used to restrict player module computation.
+# It must be an integer in the range 1-100.
+# TIMELIMIT has a default value of 10 if not specified
+# in the config file.
+# It indicates the number of seconds allowed.  If the
+# player module takes longer than this to return from
+# any of its function calls (primarily this is for the move function)
+# the player is invalidated.
+TIMELIMIT 8
+
+# DISPLAYDELAY is used to artificially slow down a game
+# involving player modules that compute quickly, so that
+# the game can be visually followed.
+# DISPLAYDELAY must have an integer value in the range 0-5000.
+# It represents the number of milliseconds pause before
+# each player module move is displayed.  It has no effect
+# on moves from HUMAN players.
+# DISPLAYDELAY has a default value of 1000 if not
+# specified in the config file.
+DISPLAYDELAY 500
+
+# a PREMOVE is used to get the game started with
+# a specific move before calling the
+# HUMAN / player modules for moves.
+# a PREMOVE must have three comma-separated values,
+# with no spaces, indicating row, column and player id
+# for the move. (e.g. PREMOVE 3,5,1)
+# Multiple PREMOVE lines are allowed, and are processed in order.
+# An invalid PREMOVE will cause a game error.
+# PREMOVE lines are optional.
+
+
+# NUMRANDOMMOVES is used to indicate how many
+# random moves should be generated before
+# letting the players choose moves.  NUMRANDOMMOVES
+# must be an integer >= 0, and it represents
+# the total number of moves (not the number
+# of moves per player).  By default, NUMRANDOMMOVES
+# has a value of 0.  Random moves are generated
+# after PREMOVES (it is legal to incorporate both).
+NUMRANDOMMOVES 0
+
+# LOGFILE is used to store the moves of the game
+# as a sequence of PREMOVEs so that they can be cut
+# and paste into a config file to replay a series
+# of moves from a game.  Legal moves are included.
+# LOGFILE should be the string name of the file to write to.
+# LOGFILE is optional.
+#LOGFILE logs/moves.txt
+
+# GUIGREYSCALE is set so that the GUI displays the game
+# in greyscale instead of color.  By default, the game
+# is displayed in color.  No additional arguments are
+# specified along with the command GUIGREYSCALE.
+# Only use it to request greyscale display.
+#GUIGREYSCALE

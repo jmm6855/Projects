@@ -1,0 +1,77 @@
+commit c569e32883b9b114ce2e9402120e8f1bc221f498
+Author: jmm6855 <kiwibird09@gmail.com>
+Date:   Sat Nov 3 20:40:21 2018 -0400
+
+    added the define dnu source at the top of my file.
+
+commit 09806cb2152d964cd518aebc923b2fa1f2302050
+Author: jmm6855 <kiwibird09@gmail.com>
+Date:   Sat Nov 3 18:45:40 2018 -0400
+
+    fixed output file redirection and changed an instance of printf to fprintf.
+
+commit e9232c076fc42bef951b228806a781311e0c5519
+Author: jmm6855 <kiwibird09@gmail.com>
+Date:   Fri Nov 2 19:58:03 2018 -0400
+
+    Fixed valgrind read and write errors, 4 frees missing still and no idea how to fix.
+
+commit bdd2e8332bb053100ecc505e06be8c2503955a24
+Author: jmm6855 <kiwibird09@gmail.com>
+Date:   Fri Nov 2 17:46:03 2018 -0400
+
+    Fixed implementation to not go out of bounds checking any neihbors below the current position.
+
+commit df111a9670dc7c3da6d5614f4ada3ddd0fe772e0
+Author: jmm6855 <kiwibird09@gmail.com>
+Date:   Fri Nov 2 14:46:32 2018 -0400
+
+    accounted for the start and end points in the number of steps.
+
+commit 7c6c56d83acff171f36ddc6092733885176406af
+Author: jmm6855 <kiwibird09@gmail.com>
+Date:   Fri Nov 2 14:42:34 2018 -0400
+
+    fixed compilation errors  with missing variable names on line 88 and 96
+
+commit dca6e30d8fd4748a221cd7818005537b4cdd6d39
+Author: jmm6855 <kiwibird09@gmail.com>
+Date:   Fri Nov 2 14:35:09 2018 -0400
+
+    Finished the breadth first search implemention, solution path, and number of steps in the solution.
+
+commit 55662c3159103bcc3858f04abc6f25adcba12607
+Author: jmm6855 <kiwibird09@gmail.com>
+Date:   Fri Nov 2 13:57:00 2018 -0400
+
+    finished implementaion of what I hope is a proper queue and begun work on solving the maze
+
+commit 857d9c49157c82e40712a3558fd431a752ce4586
+Author: jmm6855 <kiwibird09@gmail.com>
+Date:   Wed Oct 31 16:02:24 2018 -0400
+
+    added empty methods to help sovle the maze
+
+commit 43542c634e289e58c320c62b18f1a8df0b2519b0
+Author: jmm6855 <kiwibird09@gmail.com>
+Date:   Wed Oct 31 14:31:37 2018 -0400
+
+    added functions to print the maze properly. Added if statements to cause execution if flags are present.
+
+commit a810afb58d2b3cc7a13ed47b1307e55c6ca749d5
+Author: jmm6855 <kiwibird09@gmail.com>
+Date:   Wed Oct 31 13:23:28 2018 -0400
+
+    finsihed reading in the maze and allocating memory to it
+
+commit e2271b3dce534ef9228274fc2ecf84a6c9ee44eb
+Author: jmm6855 <kiwibird09@gmail.com>
+Date:   Tue Oct 30 22:10:19 2018 -0400
+
+    added functionality to reading lines, still need to store them.
+
+commit 61bc7b5f9b7ac4f6ab290e166dad026b97e489a0
+Author: jmm6855 <kiwibird09@gmail.com>
+Date:   Tue Oct 30 15:56:25 2018 -0400
+
+    initial git commit. Created the structure for reading in command line flags to change the operation of the program.

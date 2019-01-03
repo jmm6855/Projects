@@ -1,0 +1,85 @@
+commit f14e3952a19acad7afd7f161ce303e0f8b9a6bfe
+Author: jmm6855 <kiwibird09@gmail.com>
+Date:   Sat Dec 8 23:50:17 2018 -0500
+
+    added a break to end of switch case on fileReader.c
+
+commit 80a514e8d3fe53febcf81ebe68e4e4e395c68815
+Author: jmm6855 <kiwibird09@gmail.com>
+Date:   Sat Dec 8 23:49:01 2018 -0500
+
+    more robust error handling.
+
+commit a1e7aa36c8758f6e462ab45ae1906f126f3ef2e5
+Author: jmm6855 <kiwibird09@gmail.com>
+Date:   Sat Dec 8 23:32:30 2018 -0500
+
+    fixed placement of craters.
+
+commit 8539521370ac270dd99767c0159c09539e4669f0
+Author: jmm6855 <kiwibird09@gmail.com>
+Date:   Sat Dec 8 23:11:02 2018 -0500
+
+    Finished implementing threaded missiles, offense, and defense. Unexpected behavior present.
+    City shifts downwards and missiles have phantoms that follow despite being
+    overwritten with a " ". No newlines are present anywhere, disscussion posts unhelpful.
+
+commit e4c567d19f81ad81a1391b41f97e406a4c490f32
+Author: jmm6855 <kiwibird09@gmail.com>
+Date:   Sat Dec 8 21:00:13 2018 -0500
+
+    adding functionality to the run functions of the offense and defense.
+
+commit 3ff198b7926f4a5b2bf82fab3dc0d80921a9a402
+Author: jmm6855 <kiwibird09@gmail.com>
+Date:   Fri Dec 7 22:21:49 2018 -0500
+
+    beginning to add threading functionality. Created helper classes with header files.
+
+commit 87a904185bbf47f657ba14ff32cd5f2f54a5930d
+Author: jmm6855 <kiwibird09@gmail.com>
+Date:   Fri Dec 7 21:30:14 2018 -0500
+
+    added corner case coverage
+
+commit 5b5a77d56a4b8ec53c6aab925d7e6453dcb63d5c
+Author: jmm6855 <kiwibird09@gmail.com>
+Date:   Fri Dec 7 21:08:06 2018 -0500
+
+    added guards for no name being present for both offense and defense.
+
+commit fa2df173657307890d223dbab07b575ac8eacd48
+Author: jmm6855 <kiwibird09@gmail.com>
+Date:   Fri Dec 7 21:00:18 2018 -0500
+
+    added coverage for a corner case where the building was never finished.
+
+commit 26f3ba6d18a4f8685c0765bac3d9979a989c0763
+Author: jmm6855 <kiwibird09@gmail.com>
+Date:   Fri Dec 7 20:22:10 2018 -0500
+
+    added cityGenerator to help build the city on the curses screen and printed the city to the screen from the file.
+
+commit f826c41293bfc246dbf347ff181439f7c0140ffe
+Author: jmm6855 <kiwibird09@gmail.com>
+Date:   Fri Dec 7 14:13:02 2018 -0500
+
+    finsihed implementing the fileReader class so that files can be taken properly as input. Switched to fgets from getline. Valgrind giving no errors.
+
+commit ae132dc3daa779e0a06eb58d1738b6773c725a62
+Author: jmm6855 <kiwibird09@gmail.com>
+Date:   Tue Dec 4 19:47:51 2018 -0500
+
+    added files to handle files
+
+commit 4ad04add0cb0602a5fe37920f092594af142a272
+Author: jmm6855 <kiwibird09@gmail.com>
+Date:   Tue Dec 4 16:30:35 2018 -0500
+
+    secondary setup commit
+
+commit 85e29ead25288e50405a6a80b3faa382e1a9aca6
+Author: jmm6855 <kiwibird09@gmail.com>
+Date:   Thu Nov 22 16:03:17 2018 -0500
+
+    Initial checkin
